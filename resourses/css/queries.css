@@ -1,0 +1,521 @@
+/*  -------------------------------------------------------------------   screen less then 1200px   and more then 1050px ----------------------------------------------------------------------------   */
+@media only screen and (max-width: 1200px){
+    
+    
+    .heder-text-msg{
+    
+   position: absolute;
+    margin-top:35%;
+    margin-left:40%;
+    
+    -webkit-transform: translate(-50%,-50%);
+    
+    transform: translate(-50%,-50%);
+}
+    
+    
+    h1{  
+    font-size: 250%;
+   
+}
+    
+    
+    .upper-section img{
+    height: 100px;
+margin-left: 5%;
+    margin-top: 2.8%;
+    float:left;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border-radius: 50%;    
+}
+
+    
+    
+    .upper-section ul{
+
+    float: right;    
+    list-style: none;
+    text-transform:uppercase;
+    margin-right: 8%;
+    margin-top: 80px;
+}
+
+.upper-section li {
+    display:inline-block;
+    margin-right: 15px;
+    padding-bottom: 8px;
+    color:rgba(127, 200, 227, 0.7);
+}
+    
+    
+    .btn-app img {
+    width:160px;
+    height:70px;
+    margin-right: 50px;
+    -webkit-transition:height 0.3s,width 0.3s;
+    transition:height 0.3s,width 0.3s;
+}
+
+.btn-app img:hover {
+    width:170px;
+    height:75px;
+    
+}
+    
+    
+    
+}
+
+/*  -------------------------------------------------------------------   screen less then 1050px   and more then 812px ----------------------------------------------------------------------------   */
+@media only screen and (max-width: 1050px){
+    
+    
+    .row{
+        
+        max-width: 100%;
+        margin:0 2%;
+    }
+    
+     .btn-app img {
+    width:125px;
+    height:60px;
+    margin-right: 35px;
+    -webkit-transition:height 0.3s,width 0.3s;
+    transition:height 0.3s,width 0.3s;
+}
+
+.btn-app img:hover {
+    width:133px;
+    height:65px;
+    
+}
+    
+    .mobile{
+    width:50%;
+}
+    
+    
+.work-space{
+    margin-bottom: 9%;
+}
+
+
+.work-space p{
+    font-size: 16px;
+}
+
+    
+    .pic li img{
+    opacity: 0.7;
+    width:100%;
+    height:385px;
+    -webkit-transform:scale(1.10);
+    transform:scale(1.10);
+    -webkit-transition: opacity 0.5s,-webkit-transform 0.5s;
+    transition: opacity 0.5s,-webkit-transform 0.5s;
+    transition: transform 0.5s,opacity 0.5s;
+    transition: transform 0.5s,opacity 0.5s,-webkit-transform 0.5s;
+   
+}
+    
+    .heder-text-msg{
+    
+   position: absolute;
+    margin-top:45%;
+    margin-left:40%;
+    
+    -webkit-transform: translate(-40%,-40%);
+    
+    transform: translate(-40%,-40%);
+}
+
+header{
+     background-attachment: fixed;
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(22, 30, 33, 0.62)),to(#09151a)),url(images/car.jpg);
+    background-image:linear-gradient(rgba(22, 30, 33, 0.62),#09151a),url(images/car.jpg);
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+}
+    
+    html{
+    
+    background-color:aliceblue;
+    color:black;
+    font-size: 13px;
+    font-weight:80;
+    font-family: 'sans-serif','arrial';
+    text-rendering: optimizeLegibility;
+}
+    
+}
+
+    /*  -------------------------------------------------------------------   screen less then 811px   and more then 769px ----------------------------------------------------------------------------   */
+@media only screen and (max-width: 811px){
+    
+     .row{
+        
+        max-width: 100%;
+        margin:0 2%;
+    }
+    
+      .btn-app img {
+    width:100px;
+    height:50px;
+    margin-right: 35px;
+    -webkit-transition:height 0.3s,width 0.3s;
+    transition:height 0.3s,width 0.3s;
+}
+
+.btn-app img:hover {
+    width:110px;
+    height:55px;
+    
+}
+    
+     .pic li img{
+    opacity: 0.7;
+    width:100%;
+    height:315px;
+    -webkit-transform:scale(1.10);
+    transform:scale(1.10);
+    -webkit-transition: opacity 0.5s,-webkit-transform 0.5s;
+    transition: opacity 0.5s,-webkit-transform 0.5s;
+    transition: transform 0.5s,opacity 0.5s;
+    transition: transform 0.5s,opacity 0.5s,-webkit-transform 0.5s;
+   
+}
+    
+}
+        
+        
+        
+        /*  -------------------------------------------------------------------   screen less then 768px   and more then 481px ----------------------------------------------------------------------------   */
+@media only screen and (max-width: 768px){
+     .row{
+        
+        max-width: 100%;
+        margin:0 2%;
+    }
+    
+     .upper-section img{
+    height: 70px;
+margin-left: 5%;
+    margin-top: 2.8%;
+        
+}
+
+    
+    
+    .upper-section ul{
+    margin-right: 4%;
+    margin-top: 9%;
+}
+
+.upper-section li {
+    margin-right: 6px;
+    padding-bottom: 8px;
+  
+}
+    
+    .upper-section li a:link,.upper-section li a:visited{
+font-size: 10px;
+   
+}
+    h1{
+    
+    font-size: 190%;
+   
+}
+    
+.btn:link,.btn:visited{
+    
+    padding:  5px 15px;
+     
+}
+    header{
+    height: 80vh;
+    }
+    
+    
+    html{
+    
+    font-size: 11px;
+    font-weight:70;
+   
+}
+    
+    .heder-text-msg{
+  
+    margin-top:350px;
+    margin-left:45%;
+    
+}
+    
+    
+      .pic li img{
+  
+    width:100%;
+    height:250px;
+   
+   
+}
+    
+    .mobile{
+    width:150px;
+}
+    
+    
+.work-space{
+    margin-bottom: 5%;
+}
+
+
+.work-space p{
+    font-size: 12px;
+}
+  .btn-app img {
+    width:75px;
+    height:40px;
+    margin-right: 18px;
+    -webkit-transition:height 0.3s,width 0.3s;
+    transition:height 0.3s,width 0.3s;
+}
+
+.btn-app img:hover {
+    width:80px;
+    height:45px;
+    
+}
+    
+    .work-space div{
+    border: 2px solid #F39C12 ;
+     display: inline-block;
+    border-radius: 50%;     
+    height: 35px;
+    width:35px;
+    padding: 9px;
+    text-align: center;
+    float:left;  
+    margin-right:10px;
+}
+    
+    .icns a{
+    
+    margin-right: 2%;
+    font-size: 130%;
+   
+}
+    
+    .ls a{
+  
+    margin-right: 3.4%;
+  
+}
+    
+}
+    
+    
+    /*  -------------------------------------------------------------------   screen less then 480px   ----------------------------------------------------------------------------   */
+@media only screen and (max-width: 480px){
+    
+     .row{
+        
+        max-width: 100%;
+        margin:0 2%;
+    }
+    
+   .upper-section img{
+    height: 40px;
+margin-left: 3%;
+    margin-top: 3%;
+     
+}
+    
+    
+    html{
+    font-size: 8px;
+    font-weight:60;
+   
+}
+    
+    .upper-section ul{
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.upper-section li {
+   
+    margin-right: 5px;
+   
+}
+    
+    
+   
+    .upper-section li a:link,.upper-section li a:visited{
+font-size: 5px;
+   
+}
+    
+    header{    
+    height: 50vh;
+   
+}
+
+    h1{
+    padding-bottom:8px; 
+    font-size:150%;
+    font-weight: 10;
+   
+}
+    
+    .btn:link,.btn:visited{
+   
+    padding:  1px 5px;
+  
+}
+    .btn-full:link,.btn-full:visited{
+
+margin-right: 5px;
+}
+    
+    .heder-text-msg{
+    
+   margin-top:210px;
+    margin-left:45%;
+    
+}
+    
+    .pic li img{   
+    height:130px;   
+}
+    
+     .mobile{
+    width:100px;
+}
+    .work-space{
+    margin-bottom: 4%;
+}
+
+
+.work-space p{
+    font-size: 12px;
+    margin: 0 15%;
+}
+  .btn-app img {
+    width:75px;
+    height:40px;
+    margin-right: 18px;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    -webkit-transition:height 0.3s,width 0.3s;
+    transition:height 0.3s,width 0.3s;
+}
+
+.btn-app img:hover {
+    width:80px;
+    height:45px;
+    
+}
+    
+    .work-space div{
+   
+    height: 25px;
+    width:25px;
+    padding: 6px;
+    text-align: center;
+    float:left;  
+    margin-right:10px;
+}
+    
+    .space:first-child{
+    text-align:center;
+   
+}
+    
+    
+.space:last-child {
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+   
+
+    .photo{
+        margin-top: 30px;
+    }   
+    
+    blockquotes:before{
+    font-size: 300%;
+    content: "\201C";
+    left:-6px;
+    top:-15px;
+    
+}
+
+    blockquotes cite img{
+    margin-top:2%;
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    vertical-align:bottom;
+    margin-right: 3.5%;
+        margin-bottom: 2px;
+}
+
+    
+blockquotes cite{
+    display:block;
+   margin-bottom: 10%;
+    
+}
+ 
+input[type=text],input[type=email],textarea,select{
+    width:100%;
+    }
+    
+input[type=text],input[type=email],textarea,select,input[type=checkbox],input[type=submit]{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    }
+   
+  .lab{
+    padding-left: 5%;
+    font-size: 110%;
+}
+    
+    .ls{
+        margin: 2px 8%;
+    }
+    
+   .ls a{
+    margin-top: 2%;
+    margin-right: 5%;
+       margin-bottom: 3%;
+     float: left;
+    
+}
+   
+    
+    .icns a{
+    float: left;
+    display: inline-block;
+    margin-right: 8%;
+    font-size: 150%;
+    color:#7c7c7c;
+   
+}
+    
+    .copy{
+   margin: 2% 0;
+    padding: 0 auto;
+    
+}
+    .icns{
+        margin: 2% 35%;
+    }
+    
+    
+}
+
